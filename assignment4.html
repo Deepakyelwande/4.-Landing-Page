@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+
+        header {
+            background-color: yellowgreen;
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        header ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+
+        header a {
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #menu li {
+            padding: 10px;
+
+        }
+
+        #social li {
+            padding: 10px;
+
+        }
+
+        #logo {
+            margin: 0 auto;
+            font-size: 25px;
+        }
+
+        #main {
+            display: flex;
+
+        }
+
+        aside {
+            flex: 0 0 20vw;
+            background: beige;
+        }
+
+        .service {
+            
+            justify-content: space-between;
+
+        }
+
+        .service-box {
+            border: 1px solid rgb(10, 9, 9);
+            padding: 10px;
+            flex-basis: 32%;
+            max-width: 370px;
+                   }
+
+        .call-to-action {
+            
+            color: white;
+            padding: 8px 13px;
+
+        }
+
+        article {
+            padding: 10px;
+        }
+
+        .service-box img {
+            width: 100%;
+            
+
+
+        }
+
+        footer {
+            background: #566c2b;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+
+        }
+
+        aside ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        aside ul a {
+            color: #566c2b;
+            padding: 10px;
+            display: block;
+            border-bottom: 1px solid gray;
+        }
+
+        aside img {
+            width: 100%;
+        }
+        .service-des{
+           text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact</a></li>
+
+            </ul>
+        </nav>
+        <div id="logo">
+            <a href="">Web Tech Solution</a>
+        </div>
+        <nav id="social">
+            <ul>
+                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+
+            </ul>
+        </nav>
+
+
+
+
+    </header>
+
+    <div id="main">
+        <aside class="">
+            <ul>
+                <li><a href="">some link</a></li>
+                <li><a href="">some link</a></li>
+                <li><a href="">some link</a></li>
+                <li><a href="">some link</a></li>
+                <li><a href="">some link</a></li>
+            </ul>
+            <img src="img/aside.jfif" alt="">
+        </aside>
+        <article>
+            <h2>welcome</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui consequuntur culpa quam sint. Odit
+                asperiores totam obcaecati, explicabo error necessitatibus culpa corporis porro, beatae recusandae
+                
+              
+                corporis, eos porro! Odio at, quibusdam consequatur modi alias in praesentium eligendi obcaecati, quod,
+                corrupti reprehenderit!</p>
+            <h2>our services</h2>
+            <div class="service">
+                <div class="service-box">
+                    <div class="service-img"></div>
+                    <img src="img/image.jfif" alt="">
+
+                </div>
+                <div class="service-title">
+                    <h3>Web designing </h3>
+                </div>
+                <div class="service-des">
+                    <p>Web design encompasses many different skills and disciplines in the production and Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro incidunt laboriosam ducimus! Neque blanditiis harum ut eum? Eos, inventore totam!</p>
+                </div>
+                <div class="call-to-action">
+                    <a href="img/design.jfif">Read more</a>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-box">
+                    <div class="service-img"></div>
+                    <img src="img/des.jfif" alt="">
+
+
+                </div>
+                <div class="service-title">
+                    <h3>Web Development</h3>
+                </div>
+                <div class="service-des">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore adipisci et pariatur eligendi, quia ducimus. Voluptatibus inventore doloremque placeat cumque!</p>
+                </div>
+                <div class="call-to-action">
+                    <a href="">Read more</a>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-box">
+                    <div class="service-img"></div>
+                    <img src="img/design.jfif" alt="">
+
+                </div>
+                <div class="service-title">
+                    <h3>Mob App Development</h3>
+                </div>
+                <div class="service-des">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, necessitatibus? Et iure exercitationem maiores deleniti cupiditate eligendi fuga aperiam possimus.</p>
+                </div>
+                <div class="call-to-action">
+                    <a href="">Read more</a>
+                </div>
+            </div>
+
+        </article>
+
+    </div>
+    <footer>Web Tech Solution</footer>
+</body>
+
+</html>
